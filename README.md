@@ -106,7 +106,7 @@ supabase-development-assignment/
 
 ### Deploy to Netlify
 
-- Link
+- [Live link](https://supabase-development.netlify.app/)
 
 ## Motivation
 
