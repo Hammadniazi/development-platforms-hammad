@@ -20,10 +20,10 @@ export default function Navbar() {
           </Link>
 
           {/* Navigation Links */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-2">
             <Link
               to="/"
-              className="text-gray-200 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+              className="text-gray-200 hover:text-white hover:bg-blue-800 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 transform hover:shadow-md"
             >
               Home
             </Link>
@@ -32,13 +32,13 @@ export default function Navbar() {
               <>
                 <Link
                   to="/submit"
-                  className="text-gray-200 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  className="text-gray-200 hover:text-white hover:bg-blue-800 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 transform hover:shadow-md"
                 >
                   Submit Article
                 </Link>
                 <button
                   onClick={handleSignOut}
-                  className="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-lg font-medium transition-all text-sm shadow-sm hover:shadow-md hover:-translate-y-0.5 transform"
+                  className="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm shadow-sm hover:shadow-md hover:-translate-y-0.5 transform"
                 >
                   Logout
                 </button>
@@ -47,13 +47,13 @@ export default function Navbar() {
               <>
                 <Link
                   to="/login"
-                  className="text-gray-200 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                  className="text-gray-200 hover:text-white hover:bg-blue-800 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 transform hover:shadow-md"
                 >
                   Login
                 </Link>
                 <Link
                   to="/register"
-                  className="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-lg font-medium transition-all text-sm shadow-sm hover:shadow-md hover:-translate-y-0.5 transform"
+                  className="bg-blue-500 text-white hover:bg-blue-600 px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm shadow-sm hover:shadow-md hover:-translate-y-0.5 transform"
                 >
                   Register
                 </Link>
